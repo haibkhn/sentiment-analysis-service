@@ -189,7 +189,7 @@ Simple health check endpoint.
 Run the automated tests using pytest:
 
 ```bash
-# Run all tests
+# Run all tests. If you haven't downloaded the model yet, run `python scripts/download_model.py` first. Otherwise, wait a few minutes for the model to download.
 python -m pytest
 
 # Run specific test files
@@ -294,8 +294,7 @@ sentiment-analysis-service/
 │   │   └── endpoints.py   # API endpoints
 │   └── utils/
 │       ├── __init__.py
-│       ├── preprocessing.py # Text preprocessing
-│       └── logging.py     # Logging utilities for ELK
+│       └── preprocessing.py # Text preprocessing
 ├── tests/
 │   ├── __init__.py
 │   ├── test_api.py        # API tests
@@ -306,6 +305,7 @@ sentiment-analysis-service/
 ├── Dockerfile             # For containerization
 ├── environment.yml        # Conda environment specification
 ├── requirements.txt       # Dependencies
+├── .gitignore             # Files to ignore in Git
 └── README.md              # This file
 ```
 
