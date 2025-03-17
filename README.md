@@ -8,7 +8,7 @@ This project implements a sentiment analysis service that can be used as part of
 
 The complete solution consists of two parts:
 
-  Part 1: Conceptual planning and architecture design (provided in the PDF file: Conceptual_planning.pdf)
+  Part 1: Conceptual planning and architecture design (provided in the PDF file: Conceptual_planning.pdf) <br/>
   Part 2: A practical microservice implementation with API endpoints for sentiment analysis (contained in this repository)
 
 ### Features
