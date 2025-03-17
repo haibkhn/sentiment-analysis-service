@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+.pytest_cache/
+
+# Model files and caches
+models/cache/
+
+# IDE settings
+.vscode/
+.idea/
+.DS_Store
+
+# Distribution
+dist/
+build/
